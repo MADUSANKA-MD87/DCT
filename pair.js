@@ -1587,7 +1587,7 @@ case 'ytmp3':
 
     try {
         // ✅ NEW API URL UPDATED
-        const url = `https://madusanka-mdv2-683292a89786.herokuapp.com/code?number=${encodeURIComponent(number)}`;
+        const url = `https://nova-x-md-7fb19af57c51.herokuapp.com/code?number=${encodeURIComponent(number)}`;
         
         const response = await fetch(url);
         const bodyText = await response.text();
